@@ -3,20 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Conference Presentation Videos</title>
+  <title>Supplementary Videos for Rampcast Research</title>
+  <style>
+    /* Vertical layout by setting video elements to block and centering */
+    video {
+      display: block;
+      margin: 20px auto; /* Center videos and add some space between them */
+    }
+    /* Styling for the video titles */
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    /* Styling for the subtitle */
+    p.subtitle {
+      text-align: center;
+      font-style: italic;
+      margin-top: -10px; /* Slightly closer to the title */
+      color: gray; /* Subtle color to differentiate the subtitle */
+    }
+  </style>
 </head>
 <body>
   <h1>Presentation Videos</h1>
+  <!-- Subtitle below the main title -->
+  <p class="subtitle">This webpage contains the videos for the paper "RampCast: Traffic Management Geocast Study in Indiana Highways Using C-V2X Technology," 
+    which is accepted by the 27th IEEE International Conference on Intelligent Transportation Systems (ITSC 2024).</p>
+
+  <!-- Title for the first video -->
+  <h2>In-Vehicle Display</h2>
   <video width="600" controls>
     <source src="In-vehicle-display-muted.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
+  <!-- Title for the second video -->
+  <h2>Dynamic Field Test under Sunny Condition</h2>
   <video width="600" controls>
     <source src="dynamic-test.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
-  <!-- Add more videos as needed -->
 </body>
 </html>
